@@ -1,9 +1,9 @@
-Build the app:
-```bash
-npx remix vite:build
-```
+What we've learned:
 
-Run the app with express
-```bash
-node --inspect server.js
-```
+- Remix compiles your app into two things:
+  - A request handler that you add to your own JavaScript server
+  - A pile of static assets in your public directory for the browser
+- You can bring your own server with adapters to deploy anywhere
+- You can set up a development workflow with HMR built-in
+
+In general, Remix is a bit "guts out". A few minutes of boilerplate but now you own your stack.
