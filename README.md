@@ -3,7 +3,7 @@ Build the app:
 npx remix vite:build
 ```
 
-Run the app:
+Run the app with express
 ```bash
-npx remix-serve build/server/index.js
+node --inspect server.js
 ```

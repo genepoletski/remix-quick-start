@@ -4,16 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node ./server.js",
+    "start": "cross-env NODE_ENV=production node ./server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "@remix-run/express": "2.16.3",
     "@remix-run/node": "2.16.3",
     "@remix-run/react": "2.16.3",
-    "@remix-run/serve": "2.16.3",
+    "cross-env": "7.0.3",
+    "express": "4.21.2",
     "isbot": "4.4.0",
     "react": "19.1.0",
     "react-dom": "19.1.0"
